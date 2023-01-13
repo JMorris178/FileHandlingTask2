@@ -6,7 +6,8 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-	    ArrayList<person> dataList = new ArrayList<person>();
+	    ArrayList<String> dataList = new ArrayList<String>();
         utilisation.fileToArray(dataList);
+        utilisation.alphaSort(dataList);
     }
 }
